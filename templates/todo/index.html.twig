@@ -1,0 +1,10 @@
+{% for task in tasks %}
+    <div>
+        {{ task.id }} - 
+        {{ task.task }}<br>
+        {{ task.dueDate | date('d/m/Y') }} <br>
+        <a href="{{ path('app_todo_edit', {id: task.id}) }}">Edit</a> - 
+        <a href="{{ path('app_todo_delete', {id: task.id}) }}">Delete</a>
+        <br>
+    </div>
+{% endfor %}
