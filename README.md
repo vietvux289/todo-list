@@ -1,4 +1,4 @@
-# Todo List Application
+# Todo List - PHP Symfony Application
 
 ## An example application to demonstrate Symfony Form feature.
 
